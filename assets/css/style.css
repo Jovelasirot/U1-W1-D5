@@ -1,0 +1,169 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Rubik:wght@500;600&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  display: block;
+  text-align: center;
+}
+
+/* header */
+header {
+  background-color: black;
+  height: 80px;
+}
+
+header #logo {
+  padding: 10px;
+}
+
+/* main part 1 */
+
+main .partOne {
+  padding: 2rem;
+  background-image: url(/assets/images/banner.jpg);
+  background-size: cover;
+}
+
+main .partOne .tittle {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+
+main .partOne .text1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+main .partOne .sub {
+  color: #fff;
+  background-color: #f04c2f;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* main part 2 */
+
+main .partTwo,
+.text2 {
+  padding: 1rem;
+}
+
+main .partTwo .tittle2 {
+  color: #25a2c3;
+  font-weight: bold;
+}
+
+main .partTwo .notebook {
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* quote */
+
+#quote {
+  background-color: #e22d0e;
+  color: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+
+#quote .tittle3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+#quote .text3 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: small;
+}
+
+#quote .text4 {
+  padding-top: 1rem;
+}
+
+#quote .text5 {
+  font-weight: 300;
+  font-size: small;
+}
+
+/* related article */
+
+.asideTittle {
+  color: #25a2c3;
+  font-weight: 700;
+}
+
+.relatedArticle {
+  margin: 1rem;
+  width: auto;
+  height: auto;
+  border: 1px solid #dee1e3;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.relatedArticle .asideText {
+  padding: 1rem;
+}
+.relatedArticle .relatedpicture {
+  position: top;
+  height: 100%;
+  width: 100%;
+}
+
+/* footer */
+
+footer {
+  background-color: #25a2c3;
+  color: #fff;
+  align-content: center;
+}
+
+footer .tittleFooter {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+a {
+  color: #c8e7f0;
+}
+
+ol {
+  list-style: none;
+}
+
+ol {
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.link::after {
+  content: "";
+  width: 50%;
+  height: 1px;
+  display: block;
+  background-color: #fafafa;
+  margin: auto;
+}
+
+.addres {
+  text-decoration: none;
+}
+
+.copyright {
+  padding: 1rem;
+  padding-bottom: 3rem;
+  font-size: small;
+  color: #c8e7f0;
+}

@@ -1,0 +1,193 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Rubik:wght@500;600&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+/* header */
+header {
+  background-color: black;
+  height: 80px;
+}
+
+header #logo {
+  padding: 10px;
+  position: left;
+}
+
+/* main part 1 */
+
+main .partOne {
+  background-image: url(/assets/images/banner.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 6rem;
+}
+
+main .partOne .tittle {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #25a2c3;
+  width: 70%;
+  margin: auto;
+}
+
+main .partOne .text1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  font-size: medium;
+  width: 70%;
+  margin: auto;
+}
+
+main .partOne .sub {
+  color: #fff;
+  background-color: #f04c2f;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* main part 2 */
+
+.partTwo {
+  width: 70%;
+  margin: auto;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  display: flex;
+  align-items: center;
+}
+main .partTwo .tittle2 {
+  color: #25a2c3;
+  font-weight: bold;
+}
+
+main .partTwo .notebook {
+  border-radius: 50%;
+  padding: 5rem;
+}
+
+.alltextwo {
+  font-size: small;
+}
+
+/* quote */
+
+#quote {
+  background-color: #e22d0e;
+  color: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+
+#quote .tittle3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+#quote .text3 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: small;
+}
+
+#quote .text4 {
+  font-size: 12px;
+  padding-top: 1rem;
+}
+
+#quote .text5 {
+  font-weight: 300;
+  font-size: 10px;
+}
+
+/* related article */
+
+.aside {
+  width: 80%;
+  margin: auto;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+}
+.asideTittle {
+  color: #25a2c3;
+  font-size: medium;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relatedArticle {
+  width: 33.3%;
+  margin: 1rem;
+  border: 1px solid #dee1e3;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.relatedArticle .asideText {
+  padding: 1rem;
+  font-size: small;
+  align-items: center;
+}
+.relatedArticle .relatedpicture {
+  position: top;
+  width: 100%;
+  height: auto;
+}
+
+/* footer */
+
+footer {
+  background-color: #25a2c3;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .tittleFooter {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+a {
+  color: #c8e7f0;
+}
+
+ol {
+  list-style: none;
+}
+
+ol {
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.link {
+  border-bottom: 1px solid #fff;
+}
+
+.addres {
+  text-decoration: none;
+}
+
+.copyright {
+  padding: 1rem;
+  padding-bottom: 3rem;
+  font-size: small;
+  color: #c8e7f0;
+}
